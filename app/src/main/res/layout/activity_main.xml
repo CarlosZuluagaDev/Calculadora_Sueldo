@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="24sp"
+
+    >
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="calculadora sueldo"
+    android:textAlignment="center"
+    android:textSize="22dp"
+    android:textAllCaps="true"/>
+
+
+    <Spinner
+        android:id="@+id/spinnerCargo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:entries="@array/cargos"
+        android:layout_gravity="center"
+        android:background="@color/gris"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/horas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ingrese las horas"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="calcular"
+        android:background="@drawable/btn_primario"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="22dp"/>
+
+</LinearLayout>

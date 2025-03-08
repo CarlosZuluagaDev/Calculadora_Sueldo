@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculadora Sueldo</string>
+
+    <string-array name="cargos">
+        <item>Seleccione un Cargo</item>
+        <item>Director</item>
+        <item>Consultor</item>
+        <item>Repartidor</item>
+        <item>Recepcionista</item>
+        <item>Ingeniero</item>
+    </string-array>
+
+</resources>
